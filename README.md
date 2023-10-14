@@ -52,5 +52,5 @@ $ npm run test:e2e:watchdog
 
 ## Stay in touch
 
-- Author - Eric Saúl López Barragán
+- Author - Ing.  Eric Saúl López Barragán
 - Email - ericsaullb@gmail.com
