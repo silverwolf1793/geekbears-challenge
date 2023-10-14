@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  dev-db:
+    image: mongo:latest
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=test
+      - MONGO_INITDB_ROOT_PASSWORD=test
+    ports:
+      - '27017:27017'
+    
+  test-db:
+    image: 'mongo:latest'
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=test
+      - MONGO_INITDB_ROOT_PASSWORD=test
+    ports:
+      - '27099:27017'
+
+
